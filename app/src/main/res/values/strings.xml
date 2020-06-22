@@ -13,4 +13,6 @@
     <string name="Maak_Mijn_Account">Maak mijn account</string>
     <string name="ok">OK</string>
     <string name="achievements">Achievements</string>
+    <string name="Post">Post</string>
+    <string name="search_players_and_teams">search players and teams</string>
 </resources>

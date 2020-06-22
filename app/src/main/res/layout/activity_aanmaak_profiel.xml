@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFEA00">
 
     <ImageView
         android:id="@+id/update_imageView"
@@ -23,31 +23,31 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/black"
         app:hintTextColor="@color/black"
-        app:layout_constraintWidth_percent="0.9"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/update_imageView">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/update_imageView"
+        app:layout_constraintWidth_percent="0.9">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/EditTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:backgroundTint="@color/black"
-            android:hint="@string/voeg_je_naam_toe" />
+            android:hint="@string/voeg_je_naam_toe"
+            android:textColor="@color/black" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btnSaveButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/ok"
         android:layout_marginTop="16dp"
-        app:layout_constraintWidth_percent="0.9"
+        android:background="#000000"
+        android:text="@string/ok"
         android:textColor="@android:color/white"
-        android:background="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tilName"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tilName"
+        app:layout_constraintWidth_percent="0.9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
