@@ -16,7 +16,7 @@
         android:inputType="textPersonName"
         android:text="@string/search_players_and_teams"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="409dp"
