@@ -11,4 +11,6 @@
     <string name="wachtwoord">Wachtwoord</string>
     <string name="herhaal_wachtwoord">Herhaal wachtwoord</string>
     <string name="Maak_Mijn_Account">Maak mijn account</string>
+    <string name="ok">OK</string>
+    <string name="achievements">Achievements</string>
 </resources>
