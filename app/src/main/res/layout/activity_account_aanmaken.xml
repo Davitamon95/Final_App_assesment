@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="#FFEA00">
 
     <View
         android:id="@+id/divider2"
@@ -14,7 +14,7 @@
         android:background="#000000"
         app:layout_constraintBottom_toTopOf="@+id/etRegisterEmail"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/etRegisterEmail"
@@ -39,6 +39,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:autofillHints=""
         android:backgroundTint="@android:color/black"
         android:ems="10"
         android:hint="@string/wachtwoord"
@@ -48,14 +49,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/etRegisterEmail"
-        app:layout_constraintWidth_percent="0.9"
-        android:autofillHints="" />
+        app:layout_constraintWidth_percent="0.9" />
 
     <EditText
         android:id="@+id/etRegisterRepeatPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:autofillHints=""
         android:backgroundTint="@android:color/black"
         android:ems="10"
         android:hint="@string/herhaal_wachtwoord"
@@ -65,8 +66,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etRegisterPassword"
-        app:layout_constraintWidth_percent="0.9"
-        android:autofillHints="" />
+        app:layout_constraintWidth_percent="0.9" />
 
     <Button
         android:id="@+id/btnAccountMaken"
