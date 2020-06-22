@@ -7,4 +7,8 @@
     <string name="geen_account_klik_hier">geen_account_klik</string>
     <string name="inloggen">Inloggen</string>
     <string name="username">Username</string>
+    <string name="email_adress">Emailadress</string>
+    <string name="wachtwoord">Wachtwoord</string>
+    <string name="herhaal_wachtwoord">Herhaal wachtwoord</string>
+    <string name="Maak_Mijn_Account">Maak mijn account</string>
 </resources>
